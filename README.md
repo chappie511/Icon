@@ -1,25 +1,16 @@
-# 🌟 Interface Web - AI Girl Generator Improved
+# 🌟 Banque de Ressources - AI Girl Generator Improved
 
-Ce dépôt sert d'interface d'hébergement pour le générateur Perchance **AI Girl Generator Improved**. 
+Ce dépôt sert de banque d'images et de ressources externes (assets) pour le générateur hébergé sur Perchance.
 
-Son objectif principal est de contourner les restrictions standards des navigateurs mobiles afin de permettre l'affichage d'une **icône personnalisée** lorsque le générateur est ajouté à l'écran d'accueil d'un téléphone intelligent.
+Son objectif principal est de stocker de manière sécurisée et fiable les fichiers visuels (comme l'icône de raccourci) afin qu'ils puissent être appelés directement dans le code du générateur. Cela garantit un chargement rapide et permet de contourner les problèmes de mise en cache des navigateurs mobiles.
 
-## ✨ Fonctionnalités
+## ✨ Utilité du dépôt
 
-* 📱 **Optimisation Mobile :** Code CSS forçant un affichage en plein écran à 100%, éliminant les bordures pour donner l'illusion d'une application native.
-* 🖼️ **Icône Personnalisée :** Intégration des balises `apple-touch-icon` liées au fichier `perchance_icon.jpg` pour une reconnaissance immédiate dans les favoris et sur l'écran d'accueil.
-* 🔗 **Intégration Sans Blocage :** Utilisation de la méthode d'intégration `null.perchance.org` pour outrepasser les sécurités `X-Frame-Options` et charger l'Iframe de manière fluide.
+* 🖼️ **Hébergement d'icône personnalisée :** Stockage du fichier `perchance_icon.jpg`, utilisé avec une balise de contournement de cache (`?v=999`) pour forcer l'affichage d'un beau raccourci sur l'écran d'accueil des téléphones intelligents.
+* 📦 **Ressources supplémentaires :** Hébergement d'images additionnelles pour enrichir l'interface visuelle du générateur (comme `golden_star.jpg`).
+* ⚡ **Stabilité :** Centralisation des ressources pour éviter les liens brisés sur la plateforme Perchance.
 
 ## 📁 Structure des fichiers
 
-* `index.html` : La page web principale qui sert de conteneur (Iframe) pour le générateur Perchance.
 * `perchance_icon.jpg` : L'icône officielle utilisée pour le raccourci mobile.
-* `golden_star.jpg` : Ressource d'image supplémentaire.
-
-## 🌐 Accès au Générateur
-
-Le générateur est accessible en ligne et prêt à être ajouté à votre écran d'accueil via GitHub Pages à cette adresse :
-**[https://chappie511.github.io/Icon/](https://chappie511.github.io/Icon/)**
-
----
-*Développé et optimisé pour une consultation fluide sur les navigateurs mobiles.*
+* `golden_star.jpg` : Ressource d'image décorative utilisée dans l'interface.
